@@ -7,7 +7,8 @@
 # Project files description:
     The Othello implementation is structured as follows:
     • OthelloMove.java: this class contains a "move" (which player made the move and the coordinates of the move)
-    • OthelloState.java: this is the core class, which implements most of the functionality of the game. The functions you should be aware of, for implementing minimax are as follows:
+    • OthelloState.java: this is the core class, which implements most of the functionality of the game.
+    •The functions you should be aware of, for implementing minimax are as follows:
     o public List getValidMoves (): returns the list of moves for the next player to move.
     o public List getValidMoves (int player): same as before, but you can specify which player you want to generate moves for.
     • OthelloPlayer.java: this is an abstract class defining an agent that plays Othello. Your agent should be implemented as a class that extends this one.
