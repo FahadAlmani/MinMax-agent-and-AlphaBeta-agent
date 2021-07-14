@@ -15,4 +15,4 @@
     o public List getValidMoves (int player): same as before, but you can specify which player you want to generate moves for.
     • OthelloPlayer.java: this is an abstract class defining an agent that plays Othello. Your agent should be implemented as a class that extends this one.
     • OthelloRandomPlayer.java: an example agent that plays Othello, it chooses moves at random.
-
+    • the main class is Othello
