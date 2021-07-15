@@ -5,7 +5,6 @@
     project file which is a very simple implementation of the game of Othello. You can test it by running 
     the file "Test.java", which should run a game where both players generate moves at random.
     Implement a second agent, which uses alpha-beta pruning.
-    Compare the times that your two agents take to search up to different depths and write that in your report.
 # Project files description:
     The Othello implementation is structured as follows:
     • OthelloMove.java: this class contains a "move" (which player made the move and the coordinates of the move)
